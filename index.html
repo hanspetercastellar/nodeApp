@@ -2,12 +2,15 @@
 <html>
   <head>
     <title>Socket.IO chat</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
     <style>
 
       body{
         display: flex;
         justify-content: center;
-        background-image: url("background.jpg");
+        background-color: black ;
         font-family: 'Dancing Script', cursive;
         text-align: center;
         color:white;
@@ -29,10 +32,9 @@
       h1{
         font-size: 30pt;
       }
+
     </style>
-     <script src="/socket.io/socket.io.js"></script>
-  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
+
   </head>
  
   <script>
@@ -56,19 +58,19 @@
          
   </script>
   <body>
-  <h1>C</h1>
-    <ul id="messages">
-        <li>fdsfsdf</li>
-    </ul>
-    <form action="">
-      <input id="m" autocomplete="off" /><button>Send</button>
-    </form>
+
   <section id="container">
     <section id="section">
 
       <img id="img" src="hans.jpg" alt="">
       <h1>Hans Castellar</h1>
       <h2>Barranquilla Colombia</h2>
+      <ul id="messages">
+        <li>fdsfsdf</li>
+      </ul>
+      <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+      </form>
     </section>
 
 
