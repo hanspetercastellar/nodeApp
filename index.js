@@ -14,6 +14,7 @@ app.get('/',(req,res)=>{
 
 io.on('connection',(socket)=>{
     console.log("clientes conectado "+io.engine.clientsCount );
+    console.log("ip:  "+socket.request.socket.remoteAddress );
    socket.on('chat-message',(msg)=>{
        console.log(msg);
      io.sockets.emit("chat-message", msg );
