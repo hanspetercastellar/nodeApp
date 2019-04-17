@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "mi primera app node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanspetercastellar/nodeApp.git"
+  },
+  "author": "hans peter castellar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanspetercastellar/nodeApp/issues"
+  },
+  "homepage": "https://github.com/hanspetercastellar/nodeApp#readme"
+}
