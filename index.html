@@ -27,8 +27,8 @@
         justify-content: center;
 
       }
-      h1 {
-        font-size: 30pt;
+     .span {
+        font-size: 20pt;
         font-weight: bold;
         color:orange;
         font-family: 'Dancing Script', cursive;
@@ -50,31 +50,62 @@
   <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
       <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      Bootstrap
+      <span  class="font-weight-light span">Hans Castellar</span>
     </a>
   </nav>
-  <header class="d-flex justify-content-start ">
+  <header class="d-flex justify-content-center ">
 
-    <div class="d-flex justify-content-center flex-column ml-5 " >
-      <div class="">
+
+    <div class="d-flex row justify-content-center ml-5 p-5 " >
+      <div class="mt-4 col">
+
         <img id="img" src="http://134.209.62.235/myApp/hans.jpg" alt="">
+
       </div>
-      <div class="mt-5">
-        <h1>Hans Castellar</h1>
-        <h2> <strong>Desarrollador web</strong> </h2>
+
+      <div class=" col col-sm-8">
+        <h1 class="display-3">Web developer</h1>
       </div>
+
     </div>
+
+
+
+
 
   </header>
   <div class="container">
 
-
-
-
-    <div class="">
-
+    <div class="row d-flex justify-content-xl-between">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="http://134.209.62.235/myApp/ana2.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="..." class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
 
   </div>
   </body>
