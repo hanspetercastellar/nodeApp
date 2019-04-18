@@ -12,15 +12,15 @@
       body{
         margin: 0 auto;
         font-family: 'Roboto', sans-serif;
+        background-color: ;
         font-weight: lighter;
         color:white;
       }
 
       #img{
-        width:150px;
-        height:150px;
-        border-radius:500px;
-        border:5px solid white;
+
+        border-radius:50px;
+        border:1px solid white;
       }
       #section{
         display: flex;
@@ -47,25 +47,29 @@
   </head>
 
   <body>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar bg-dark">
     <a class="navbar-brand" href="#">
-      <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <img id="img" src="http://134.209.62.235/myApp/hans.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
+
       <span  class="font-weight-light span">Hans Castellar</span>
     </a>
   </nav>
-  <header class="d-flex justify-content-center ">
+  <header class=" ">
 
 
-    <div class="d-flex row justify-content-center ml-5 p-5 " >
-      <div class="mt-4 col">
+    <div class=" row ml-5 p-5 d-flex justify-content-md-start " >
 
-        <img id="img" src="http://134.209.62.235/myApp/hans.jpg" alt="">
 
-      </div>
 
-      <div class=" col col-sm-8">
-        <h1 class="display-3">Web developer</h1>
-      </div>
+      <div class=" ">
+
+        <div class="">
+          <h1 class="display-4 font-weight-bold">Hola, Mundo!</h1>
+          <p class="lead ">Bienvenido a mi blog, gracias por visitar mi citio web. </p>
+          <hr class="my-4">
+          <p class="font-weight-light">Soy Hans Peter Castellar, analista y desarrollador de sistemas</p>
+          <a class="btn btn-info btn-lg" href="#" role="button">Contactar</a>
+        </div>
 
     </div>
 
@@ -85,27 +89,13 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text text-dark">Hola mi amor, buenas noches. Quiero decirte que te quiero mucho y que te amo &hearts;</p>
+              <p class="card-text text-dark">Hola mi amor, buenas noches. Quiero decirte que te quiero mucho y que te amo </p>
               <p class="card-text"><small class="text-muted">Con amor, hans peter castellar</small></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="..." class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
   </div>
   </body>
